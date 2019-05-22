@@ -3,7 +3,7 @@
 - Install the AWS SAM CLI.
 - Create a function from a template using the CLI.
 - Deploy the function using the CLI.
-- Update the function to add an API Gateway and event.
+- Get the API Endpoint and test the function
 
 
 ## Steps
