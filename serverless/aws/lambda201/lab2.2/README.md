@@ -64,6 +64,13 @@
         [params.lambdaComments]
         endpoint = "http://the-url-to-our-lambda-API-Gateway"
         ```
+7. You can also get all of the endpoint URLs using the command line
+    ```sh
+    aws cloudformation describe-stacks \
+    --stack-name {YOUR_STACK_NAME} \
+    --query 'Stacks[].Outputs[]' \
+    --output table
+    ```
 7. Once you change the webhook url in github, and then change the url on config.toml and commit it, you should see the blog get created/updated.
     - If you try to go to the WebsiteURL before doing a push nothing will be there, CloudFormation created a new bucket for this stack.
 
