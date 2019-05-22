@@ -22,12 +22,10 @@ We will largely focus on using the CLI, as it is less likely to have significant
 
 - [Lab 2.1 - Install AWS SAM and deploy a test function](./lab2.1)
 - [Lab 2.2 - Deploy our GitHub listener and static site pipeline with AWS SAM](./lab2.2)
-- [Lab 2.3 - Locally test our functions and configure VS code](./lab2.3)
-- [Lab 2.4 - Deploying a new function with an automated canary and rollback](./lab2.4)
-- [Lab 2.5 - Install Serverless Framework and deploy a test function](./lab2.5)
-- [Lab 2.6 - Deploy our GitHub listener and static site pipeline with Serverless Framework](./lab2.6)
-- [Lab 2.7 - Locally test our functions and configure VS code for live debugging](./lab2.7)
-- [Lab 2.8 - Deploying a new function with an automated canary and rollback](./lab2.8)
+- [Lab 2.3 - Locally test our AWS SAM functions](./lab2.3)
+- [Lab 2.4 - Install Serverless Framework and deploy a test function](./lab2.4)
+- [Lab 2.5 - Deploy our GitHub listener and static site pipeline with Serverless Framework](./lab2.5)
+- [Lab 2.6 - Locally test our Serverless functions](./lab2.6)
 
 ## Note
 

@@ -152,8 +152,8 @@ Resources:
         Variables:
           webhook_function:
             !Ref Student00GithubWebhookSAM
-          full_name: {YOUR_REPO_NAME e.g. student00/blog}
-          clone_url: {YOUR_HTTPS_CLONE_URL e.g. https://github.com/scalable-af/training.git}
+          full_name: YOUR_REPO_NAME e.g. student00/blog
+          clone_url: YOUR_HTTPS_CLONE_URL e.g. https://github.com/scalable-af/training.git
       Events:
         Stream:
           Type: DynamoDB

@@ -1,8 +1,9 @@
-# Lab 2.4 - Deploying a new function with an automated canary and rollback
+# Lab 2.4 - Install Serverless Framework and deploy a test function
 
-- Create a new sample function that will occasionally error on purpose for demonstration
-- Use AWS SAM to roll out a new version of a function and automatically shift traffic on a schedule
-- When an error is encountered, roll back the function change
+- Install the Serverless Framework CLI
+- Create a function from a template using the CLI
+- Deploy the function using the CLI
+- Update the function to add an API Gateway and event
 
 ## Steps
 

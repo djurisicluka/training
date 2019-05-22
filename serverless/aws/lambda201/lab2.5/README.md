@@ -1,9 +1,11 @@
-# Lab 2.5 - Install Serverless Framework and deploy a test function
+# Lab 2.5 - Deploy our GitHub listener and static site pipeline with Serverless Framework
 
-- Install the Serverless Framework CLI
-- Create a function from a template using the CLI
-- Deploy the function using the CLI
-- Update the function to add an API Gateway and event
+- Create the S3 bucket for the site
+- Create the DynamoDB table
+- Create the Lambda functions
+- Create the API Gateway to tie it all together
+- Deploy it all from a single command via the CLI with a template file
+
 
 ## Steps
 
