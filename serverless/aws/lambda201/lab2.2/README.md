@@ -64,6 +64,7 @@
         [params.lambdaComments]
         endpoint = "http://the-url-to-our-lambda-API-Gateway"
         ```
+    ![CloudFormation](./images/compressed-cloud-formation.gif "CloudFormation")
 7. You can also get all of the endpoint URLs using the command line
     ```sh
     aws cloudformation describe-stacks \
