@@ -11,6 +11,7 @@ logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 logger.handlers[0].setFormatter(logging.Formatter('[%(asctime)s][%(levelname)s] %(message)s'))
 
+# Test
 # In a real implementation this would be dynamic but we know we are only triggering
 # on master. In a larger environment you might have different functions of logic
 # depending on the branch that you were receiving a webhook for.
